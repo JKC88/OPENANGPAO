@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from me88huatcai.com/?code=4403&fbclid=IwY2xjawExbnRleHRuA2FlbQEwAAEdA1poPkWj61Ml8SRJIwVEQb9YAaCdWHs5D4wkWtyxnCMOpWhx4UD4Sdbr_aem_BcBIojBSbpDVYkfKYL3VLg by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Aug 2024 12:01:11 GMT -->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JKC88 | 免费红包</title>
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'" /> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&amp;display=swap"
+      rel="stylesheet" />
+
+    <style>
+      .nunito-sans-text {
+        font-family: "Nunito Sans", sans-serif;
+      }
+      body,
+      html {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /*Prevent scrolling*/
+        font-family: "Nunito Sans", sans-serif;
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+      }
+      a {
+        text-decoration: none;
+      }
+      .container {
+        width: 400px;
+        height: 100%;
+        /* height: 900px; */
+        margin: 0 auto;
+      }
+
+      .background {
+        background-image: url("images/bg.jpg");
+        height: 100%;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .platform {
+        width: 100%;
+        height: 100%;
+        background-image: url("images/platform.png"); 
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center 105%;
+      }
+
+      .angpow {
+        margin: 0 auto;
+        width: 55%;
+        height: 100%;
+        background-image: url("images/angpow.png"); 
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center 70%;
+      }
+      .angpow .button {
+        text-align: center;
+        position: relative;
+        top: 65%;
+      }
+      .angpow-open .button {
+        text-align: center;
+        position: relative;
+        top: 50%;
+      }
+      .btn-open,
+      .btn-claim {
+        width: 50%;
+        padding: 10px;
+        color: #247fd9;
+        background: #fff;
+        border: none;
+        border-radius: 25px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+        font-size: 14px;
+        list-style: none;
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: bold;
+      }
+      .btn-claim {
+        display: inline-block;
+      }
+      .angpow-open {
+        margin: 0 auto;
+        width: 50%;
+        height: 100%;
+        background-image: url("images/angpow-open.png"); /* Use the ang pow envelope image provided */
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: none;
+        animation: fadeInScaleUp 0.5s ease forwards;
+      }
+      .angpow:hover {
+        transform: scale(
+          1.02
+        ); /* Slightly enlarges the envelope when hovered */
+        transition: transform 0.2s ease-in-out;
+      }
+      .reward {
+        text-align: center;
+        position: relative;
+        top: 40%;
+        font-size: 30px;
+        font-weight: 900;
+        color: #247fd9;
+      }
+      .logo {
+        text-align: center;
+        position: relative;
+        top: 50%;
+        color: #fff;
+      }
+      .logo span {
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .logo img {
+        display: block;
+        margin: 0 auto;
+        width: 40%;
+      }
+      /* @keyframes openEnvelope {
+        0% {
+          transform: scale(1);
+          opacity: 1;
+        }
+        50% {
+          transform: scale(1.2);
+          opacity: 0.5;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 0;
+        }
+      } */
+      @keyframes fadeInScaleUp {
+        from {
+          opacity: 0;
+          transform: scale(0.9);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+      /* Ensure the content fits mobile devices */
+      @media (max-width: 768px) {
+        .container {
+          width: 100%;
+          height: 100vh;
+        }
+        .platform {
+          width: 100%;
+          height: 100%;
+          background-size: 100%;
+          background-position: center 100%;
+        }
+        .angpow {
+          width: 70%;
+          height: 100%;
+          background-position: center 58%;
+        }
+        .angpow-open {
+          width: 70%;
+          height: 100%;
+          background-position: center 30%;
+        }
+        .angpow-open .button {
+          top: 45%;
+        }
+        .btn-open,
+        .btn-claim {
+          width: 50%;
+          padding: 15px;
+          font-size: large;
+        }
+        .reward {
+          top: 35%;
+        }
+        .logo {
+          top: 45%;
+        }
+        @keyframes fadeInScaleUp {
+          from {
+            opacity: 0;
+            transform: scale(0.8);
+          }
+          to {
+            opacity: 1;
+            transform: scale(0.85);
+          }
+        }
+      }
+
+      /* Adjustments for when the viewport height is more than 900px */
+      @media (min-width: 1400px) {
+        body,
+        html {
+          height: 100%;
+        }
+
+        .container {
+          height: 853px;
+        }
+        .platform {
+          width: 100%;
+          height: 100%;
+          background-size: 100%;
+          background-position: center 100%;
+        }
+        .angpow {
+          width: 70%;
+          height: 100%;
+          background-position: center 75%;
+        }
+        .angpow-open {
+          width: 70%;
+          height: 100%;
+          background-position: center 70%;
+        }
+        .angpow-open .button {
+          top: 55%;
+        }
+        .btn-open,
+        .btn-claim {
+          width: 50%;
+          padding: 15px;
+          font-size: large;
+        }
+        .reward {
+          top: 45%;
+        }
+        .logo {
+          top: 55%;
+        }
+        @keyframes fadeInScaleUp {
+          from {
+            opacity: 0;
+            transform: scale(0.8);
+          }
+          to {
+            opacity: 1;
+            transform: scale(0.85);
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper" class="container">
+      <div class="background">
+        <div class="platform">
+          <div class="angpow">
+            <div class="button">
+              <button type="button" class="btn-open" onclick="openAngPow()">
+                🧧打开它🧧
+              </button>
+              <a href="#" class="btn-claim" style="display: none">🧧打开它🧧</a>
+            </div>
+          </div>
+          <div class="angpow-open">
+            <div class="reward">🎉 领取奖金 RM388！💰</div>
+
+            <div class="logo">
+              <span>来自:</span><img src="images/logo.png" />
+            </div>
+            <div class="button">
+              <a href="https://jkc88.live/RFFBADS2024" class="btn-claim" target="_top">立即领取！🚀 </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="../code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"></script>
+    <script>
+      function openAngPow() {
+        //show another background
+        var audio = new Audio("sound/ka-ching.mp3"); 
+        audio.play();
+        var angpow = document.querySelector(".angpow");
+        var angpowOpen = document.querySelector(".angpow-open");
+
+        // Start the envelope opening animation
+        // angpow.style.animation = "fadeInScaleUp 0.5s ease forwards";
+
+        // Wait for the animation to finish before showing the opened envelope content
+        setTimeout(function () {
+          angpow.style.display = "none";
+          angpowOpen.style.display = "block";
+        }, 500); // This should match the duration of your animation
+        // document.querySelector(".angpow").style.display = "none";
+        // Hide the button
+        // document.querySelector(".btn-open").style.display = "none";
+        // Implement the mobile-specific behavior for opening the ang pow here
+        // sound open angpow
+        // document.querySelector(".angpow-open").style.display = "block";
+      }
+    </script>
+    <script>
+      var getUrlParameter = function getUrlParameter(sParam) {
+        var sPageURL = window.location.search.substring(1),
+          sURLVariables = sPageURL.split("&"),
+          sParameterName,
+          i;
+
+        for (i = 0; i < sURLVariables.length; i++) {
+          sParameterName = sURLVariables[i].split("=");
+
+          if (sParameterName[0] === sParam) {
+            return typeof sParameterName[1] === undefined
+              ? true
+              : decodeURIComponent(sParameterName[1]);
+          }
+        }
+        return false;
+      };
+      $(document).ready(function ($) {
+        var affiliate = getUrlParameter("aff");
+        if (affiliate === "" || affiliate === "false" || affiliate === false) {
+          var affiliate = getUrlParameter("code");
+          if (
+            affiliate === "" ||
+            affiliate === "false" ||
+            affiliate === false
+          ) {
+            affiliate = "";
+          }
+        }
+        $("#wrapper a").attr(
+          "href",
+          "https://jkc88.live/RFFBADS2024" + affiliate
+        );
+        $("#wrapper a").attr("target", "_top");
+      });
+    </script>
+  </body>
+
+<!-- Mirrored from me88huatcai.com/?code=4403&fbclid=IwY2xjawExbnRleHRuA2FlbQEwAAEdA1poPkWj61Ml8SRJIwVEQb9YAaCdWHs5D4wkWtyxnCMOpWhx4UD4Sdbr_aem_BcBIojBSbpDVYkfKYL3VLg by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Aug 2024 12:01:13 GMT -->
+</html>
